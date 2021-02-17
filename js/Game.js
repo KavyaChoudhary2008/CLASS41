@@ -105,7 +105,7 @@ class Game {
     console.log("Game Ended");
     var message = createElement('h2');
     message.html("Congratulations  "+player.name);
-    message.position(displayWidth/2,displayhHeight/4)
+    message.position(displayWidth/2,displayHeight/4)
     var message1 = createElement('h2');
     message1.html("your rank is "+player.rank)
     message1.position(displayWidth/2,displayHeight/4+40)
